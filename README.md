@@ -20,6 +20,10 @@ Or install it yourself as:
 
 `<%= icon_tag('user') %>`
 
+## TODO
+
+Add options for size, fixed-width, list icons & other examples shown here: http://fortawesome.github.io/Font-Awesome/examples/
+
 ## Contributing
 
 1. Fork it
