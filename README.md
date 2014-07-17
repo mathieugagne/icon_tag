@@ -1,6 +1,24 @@
 # IconTag
 
 Simple helper for Font Awesome icons. Adds icon_tag helper method to your views.
+Follow examples at: [http://fortawesome.github.io/Font-Awesome/examples/](http://fortawesome.github.io/Font-Awesome/examples/)
+
+
+## Usage
+
+### Options:
+
+  * `size`: "lg, 2x, 3x, 4x"
+  * `spin`: `true` or `false`
+  * `fixed-width` (alias `fw`): `true` or `false`
+  * `border`: `true` or `false`
+  * `rotate`: '90', '180', '270'
+  * `flip`: 'horizontal' or 'vertical'
+
+#### Example:
+
+    <%= icon_tag('user', size: '2x') %>
+    # => <i class='fa fa-user fa-2x'></i>
 
 ## Installation
 
@@ -15,14 +33,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install icon_tag
-
-## Usage
-
-`<%= icon_tag('user') %>`
-
-## TODO
-
-Add options for size, fixed-width, list icons & other examples shown here: http://fortawesome.github.io/Font-Awesome/examples/
 
 ## Contributing
 
